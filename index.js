@@ -1,6 +1,6 @@
 const dotenv = require ("dotenv")
 const app = require ("./App");
-const Loaders = require ("./src/Loaders/index.js");
+
 
 dotenv.config();
 Loaders.start ();
